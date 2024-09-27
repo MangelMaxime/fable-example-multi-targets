@@ -2,17 +2,17 @@
   "version": 1,
   "isRoot": true,
   "tools": {
-    "fable": {
-      "version": "4.999.0-local-build-20240926-21944",
-      "commands": [
-        "fable"
-      ],
-      "rollForward": false
-    },
     "fantomas": {
       "version": "6.3.15",
       "commands": [
         "fantomas"
+      ],
+      "rollForward": false
+    },
+    "fable": {
+      "version": "4.21.0",
+      "commands": [
+        "fable"
       ],
       "rollForward": false
     }

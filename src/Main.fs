@@ -11,7 +11,7 @@ open Thoth.Json.Python
 #endif
 
 [<EntryPoint>]
-let main argv =
+let main _argv =
     {
         Name = "Alice"
         Age = 42
