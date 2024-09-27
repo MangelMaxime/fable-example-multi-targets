@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>netstandard2.1</TargetFramework>
+        <DefineConstants>FABLE_COMPILER_JAVASCRIPT</DefineConstants>
+        <!-- Warn on ununsed variables -->
+        <OtherFlags>--warnon:1182</OtherFlags>
+    </PropertyGroup>
+    <ItemGroup>
+        <Compile Include="Shared/Types.fs" />
+        <Compile Include="Main.fs" />
+    </ItemGroup>
+    <ItemGroup>
+        <PackageReference Include="Fable.Core" />
+        <PackageReference Include="FSharp.Core" />
+        <PackageReference Include="Thoth.Json.Core" />
+        <PackageReference Include="Thoth.Json.JavaScript" />
+    </ItemGroup>
+</Project>

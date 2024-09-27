@@ -1,0 +1,13 @@
+<Project>
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageVersion Include="Fable.Core" Version="4.3.0" />
+    <PackageVersion Include="Fable.Package.SDK" Version="1.0.0" />
+    <PackageVersion Include="FSharp.Core" Version="[5.0.2,)" />
+    <PackageVersion Include="Thoth.Json.Core" Version="0.4.0" />
+    <PackageVersion Include="Thoth.Json.JavaScript" Version="0.3.0" />
+    <PackageVersion Include="Thoth.Json.Python" Version="0.4.0" />
+  </ItemGroup>
+</Project>
